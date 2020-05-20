@@ -74,7 +74,7 @@ Lista dos serviços disponíveis:
 
 ### Adicionar Usuario
 ```
-curl -v -d '{"login":"marcelo", "senha":"password", "email": "xpto@gmail.com}' -H "Content-Type: application/json" -X POST http://localhost:8181/go-auth/api/v1/go-auth/adicionar
+curl -v -d '{"login":"marcelo", "senha":"password", "email": "xpto@gmail.com}' -H "Content-Type: application/json" -X POST http://localhost:8181/go-auth/api/v1/usuario/adicionar
 ```
 
 ### Atualizar Usuario
@@ -89,7 +89,7 @@ curl -v -d '{"login":"marcelo", "senha":"password"}' -H "Content-Type: applicati
 
 ### Apagar Usuario
 ```
-curl -H "Content-Type: application/json" -X DELETE http://localhost:8181/go-auth-res/api/v1/usuario/apagar/1
+curl -H "Content-Type: application/json" -X DELETE http://localhost:8181/go-auth/api/v1/usuario/apagar/1
 ```
 
 ### Listar por Status do Usuario
