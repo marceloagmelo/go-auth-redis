@@ -1,0 +1,6 @@
+# Arquivo binario
+go-auth-redis
+
+# Vendor
+vendor/
+.vendor-new/
